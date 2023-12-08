@@ -137,10 +137,6 @@ img {
 .hero-btr:focus {
   background-color: #404bbf;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .action-plan {
   color: #2e2f42;
