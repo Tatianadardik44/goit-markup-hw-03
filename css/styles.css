@@ -44,6 +44,9 @@ img {
   display: flex;
   align-items: center;
 }
+.topchic {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .logo {
   display: inline-flex;
@@ -227,8 +230,8 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .prof {
   font-family: inherit;
@@ -273,8 +276,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 
-  padding: 16px;
-  padding-top: 32px;
+  margin: 16px;
+  margin-top: 32px;
 }
 .short-description {
   font-family: inherit;
