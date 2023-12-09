@@ -3,7 +3,6 @@ body {
   background: #fff;
   color: #434455;
   width: 1440px;
-  box-sizing: border-box;
 }
 h1,
 h2,
@@ -22,8 +21,13 @@ ul {
 img {
   width: 100%;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
+  display: inline-flex;
   color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
@@ -33,6 +37,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   font-family: Raleway, sans-serif;
+  margin-right: 76px;
 }
 
 .accent {
@@ -47,14 +52,16 @@ img {
 
 .navig {
   display: flex;
+  margin-right: auto;
+  align-items: center;
 }
 
 .topcik-ul {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .middle {
+  display: block;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -62,6 +69,8 @@ img {
   letter-spacing: 0.32px;
   text-decoration: none;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .middle:hover,
@@ -70,18 +79,16 @@ img {
 }
 .contacts-ul {
   display: flex;
-  margin-left: 332px;
+
   gap: 40px;
 }
 .contacts {
   display: flex;
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   justify-content: flex-end;
 }
 .connection {
-  display: flex;
   text-decoration: none;
 }
 
@@ -97,14 +104,19 @@ img {
 .mail:focus {
   color: #404bbf;
 }
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hero {
   width: 1440px;
   background-color: #2e2f42;
 }
 .hero-container {
-  padding-top: 188px;
-
-  padding-bottom: 188px;
+  padding: 188px 331px;
 }
 
 .hero-item {
@@ -115,9 +127,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  width: 503px;
-  padding-top: 188px;
-
+  width: 496px;
   margin-bottom: 48px;
 }
 .hero-btr {
@@ -131,13 +141,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
   padding: 16px 32px;
-  margin-right: 636px;
 }
 .hero-btr:hover,
 .hero-btr:focus {
   background-color: #404bbf;
 }
-
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .action-plan {
   color: #2e2f42;
   font-family: inherit;
@@ -145,7 +157,6 @@ img {
 .plan-chek {
   display: flex;
   gap: 24px;
-  padding-top: 121px;
 }
 .chek {
   width: 264px;
@@ -156,7 +167,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-bottom: 121px;
 }
 .directions {
   font-size: 20px;
@@ -213,7 +223,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
+
   padding-bottom: 72px;
   text-align: center;
 }
@@ -272,11 +282,4 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
