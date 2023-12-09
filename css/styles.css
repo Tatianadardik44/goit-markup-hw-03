@@ -260,19 +260,22 @@ img {
   margin-bottom: 72px;
   text-align: center;
 }
-.row-one {
-  display: flex;
-}
 
 .portfo-foto {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
   margin-bottom: 48px;
 }
 .foto-item {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
-
+.addition {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .service {
   font-family: inherit;
   color: #2e2f42;
@@ -281,9 +284,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-
-  margin: 16px;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .short-description {
   font-family: inherit;
@@ -291,8 +292,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 .foot {
   background-color: #2e2f42;
