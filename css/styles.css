@@ -131,9 +131,9 @@ img {
 .hero {
   width: 1440px;
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-container {
-  padding: 188px 0;
 }
 
 .hero-item {
